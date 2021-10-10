@@ -1,0 +1,16 @@
+phone number:
+the first 3 digit represent the mobile provider 621-799 jio.
+the first 3 digit represent the mobile provider 801-920 idea.
+the first 3 digit represent the mobile provider 921-999 vodaphone.
+
+
+state 
+the next 3 digit represent the state 123 madhya pradesh 
+the next 3 digit represent the state 456 maharashtra
+the next 3 digit represent the state 789 goa
+
+*********************************************************************
+ otp : 12345
+*********************************************************************
+
+

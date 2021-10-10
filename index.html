@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- form to accept user detail to make further inquiry-->
+  <form class="form" id="assignmentForm">
+    Name <input name="fullName" class="textField" type=" text">
+    <p id="fullNameError"></p>
+    email
+    <input name="email" class="textField" type="email">
+    <p id="emailError"></p>
+    contact number
+    <div class="phoneNumber">
+      <div class="phoneNumberDetail">
+        <img id='serviceProvider' width="50px" src="" alt="">
+        <p id='stateName'></p>
+      </div>
+      <input id="phoneNumber" name="phoneNumber" class="textField" onkeyup="phoneNumberValidation(this.value)"
+        type="tel">
+    </div>
+    <p id='error'></p>
+    <button type="button" onclick="submitFormHandler()">submit</button>
+  </form>
+  <script src="index.js"></script>
+</body>
+
+</html>
